@@ -10,36 +10,36 @@
     height: 150px;
     position: absolute;
     top: 100px;
-    animation: babymove 6s infinite ease-in-out;
+    animation: babymove 15s infinite linear;
     animation-delay: 3s;
 }
 @keyframes babymove {
     from {right: 0px;}
-    to {left: 500px;}
+    to {right: 1300px;}
 }
 .baby-yellow {
     width: 150px;
     height: 150px;
     position: absolute;
     bottom: 250px;
-    animation: babymove2 5s infinite ease-in-out;
+    animation: babymove2 13s infinite linear;
     animation-delay: 4s;
 }
 @keyframes babymove2 {
-    from {right: 0px;}
-    to {left: 600px;}
+    from {left: 0px;}
+    to {left: 1200px;}
 }
 .baby-green {
     width: 150px;
     height: 150px;
     position: absolute;
     bottom: 160px;
-    animation: babymove3 4s infinite ease-in-out;
+    animation: babymove3 13s infinite linear;
     animation-delay: 2s;
 }
 @keyframes babymove3 {
     from {right: 0px;}
-    to {left: 50px}
+    to {right: 1300px}
 }
 .toys {
     width: 200px;
@@ -48,8 +48,8 @@
     bottom: 0px;
 }
 .hanging-toys {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     position: absolute;
     top: 0px;
     animation: toptoys 2s infinite linear;
